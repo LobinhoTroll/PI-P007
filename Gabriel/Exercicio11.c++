@@ -27,10 +27,10 @@ cout << pow(numbreak[0],3) << "   " << pow(numbreak[1],3) << "   " << pow(numbre
 
 if ((pow(numbreak[0],3) + pow(numbreak[1],3) + pow(numbreak[2],3)) == snum)
 {
-    cout << "O numero é perfeito.\n" ;
+    cout << "O número fornecido é narcisista.\n" ;
 }
     else{
-        cout << "O numero não é perfeito.\n";
+        cout << "O numero fornecido não é narcisista.\n";
     }
 
 return 0;
